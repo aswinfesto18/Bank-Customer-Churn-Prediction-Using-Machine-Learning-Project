@@ -1,0 +1,1 @@
+https://bank-customer-churn-predictor-app.streamlit.app
