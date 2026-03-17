@@ -22,8 +22,7 @@ st.title("🏦 Bank Customer Churn Prediction")
 
 @st.cache_data
 def load_data():
-      return pd.read_csv(r"D:\Resume Project\Projects\Bank Customer Churn Prediction Using Machine Learning Project\bank_customer_churn.csv")
-
+    return pd.read_csv("bank_customer_churn.csv")
 
 data = load_data()
 
